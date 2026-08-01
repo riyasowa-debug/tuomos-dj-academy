@@ -427,14 +427,19 @@ backdrop-filter:blur(12px);
 
 }
 
-.lightbox img {
+
    
-    width: auto;
-    height: auto;
-    max-width: 95vw;
-    max-height: 95vh;
-    object-fit: contain;
-    border-radius: 12px;
+   #lightbox-img{
+
+max-width:88%;
+
+max-height:86%;
+
+border-radius:16px;
+
+box-shadow:
+0 20px 80px rgba(0,0,0,.6);
+
 }
 
 .close {
