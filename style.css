@@ -312,8 +312,21 @@ color:white;
 }
 
 .course-card li{
-    margin-bottom:16px;
-    font-size:18px;
+   
+    
+
+margin:14px 0;
+
+font-size:18px;
+
+color:#d7d7d7;
+
+list-style:none;
+
+position:relative;
+
+padding-left:28px;
+
 }
 .course-card .button{
     display:inline-block;
