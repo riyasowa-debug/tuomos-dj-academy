@@ -414,7 +414,46 @@ font-weight:bold;
 #about{
 
     padding:70px 0;
+.hero{
+    min-height:100vh;
+    padding-top:90px;
+}
 
+.hero-content{
+    max-width:100%;
+    padding:0 24px;
+    text-align:center;
+}
+
+.logo{
+    font-size:13px;
+    letter-spacing:5px;
+    margin-bottom:18px;
+}
+
+.hero-content h1{
+    font-size:52px;
+    line-height:1;
+    margin-bottom:18px;
+}
+
+.hero-content h2{
+    font-size:28px;
+    line-height:1.3;
+    margin-bottom:24px;
+}
+
+.description{
+    font-size:18px;
+    line-height:1.7;
+    margin-bottom:36px;
+}
+
+.button{
+    width:100%;
+    max-width:320px;
+    text-align:center;
+}
 }    .hero-image{
         position:relative;
         width:100%;
