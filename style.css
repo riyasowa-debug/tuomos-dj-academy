@@ -9,10 +9,21 @@ scroll-behavior:smooth;
 }
 
 body{
-font-family:'Montserrat',sans-serif;
-background:#050505;
-color:white;
-overflow-x:hidden;
+
+    font-family:'Montserrat',sans-serif;
+    background:
+        radial-gradient(circle at top right,
+        rgba(214,178,107,.10),
+        transparent 35%),
+
+        radial-gradient(circle at bottom left,
+        rgba(214,178,107,.06),
+        transparent 40%),
+
+        #050505;
+
+    color:white;
+    overflow-x:hidden;
 }
 
 .hero{
