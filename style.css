@@ -1181,8 +1181,55 @@ section h2{
     margin-top:25px;
 
 }
+.courses{
+    padding:70px 20px;
+}
 
-/* ---------- Gallery ---------- */
+.courses h2{
+    font-size:42px;
+    margin-bottom:40px;
+    text-align:center;
+}
+
+.courses-grid{
+    display:flex;
+    flex-direction:column;
+    gap:28px;
+}
+
+.course-card{
+    width:100%;
+    padding:34px 28px;
+    border-radius:24px;
+}
+
+.course-card h3{
+    font-size:34px;
+    margin-bottom:18px;
+}
+
+.course-card p{
+    font-size:20px;
+    line-height:1.6;
+    margin-bottom:24px;
+}
+
+.course-card ul{
+    margin:28px 0;
+}
+
+.course-card li{
+    font-size:19px;
+    line-height:1.9;
+}
+
+.course-card .button{
+    width:100%;
+    display:block;
+    text-align:center;
+    margin-top:28px;
+}
+    /* ---------- Gallery ---------- */
 
 .gallery-grid{
 
