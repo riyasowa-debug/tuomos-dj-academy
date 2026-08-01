@@ -1086,6 +1086,23 @@ body{
     transition:.35s;
 
 }
+    .lightbox{
+
+    padding:20px;
+
+}
+
+#lightbox-img{
+
+    width:100%;
+
+    max-width:420px;
+
+    max-height:80vh;
+
+    border-radius:18px;
+
+}
     /* ---------- Hero ---------- */
 
 .hero{
