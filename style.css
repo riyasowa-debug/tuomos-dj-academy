@@ -473,3 +473,7 @@ body::before{
     pointer-events:none;
     z-index:-1;
 }
+section{
+    position:relative;
+    padding:120px 8%;
+}
