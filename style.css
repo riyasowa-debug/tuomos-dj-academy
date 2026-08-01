@@ -1512,8 +1512,16 @@ section h2{
 
 .contact-card a{
 
-    color:#d6b26b;
+   .contact-card p,
+.contact-card a{
+
+    color:#bdbdbd;
+
+    font-size:18px;
 
     text-decoration:none;
 
+    transition:.3s;
+
+}
 }
