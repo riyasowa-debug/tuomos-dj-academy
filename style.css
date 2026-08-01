@@ -229,3 +229,57 @@ transform:translateY(-2px);
     color:#cfcfcf;
     margin-bottom:20px;
 }
+/* ---------- Courses ---------- */
+
+.courses{
+    padding:120px 90px;
+    background:#0b0b0b;
+}
+
+.courses h2{
+    text-align:center;
+    font-size:52px;
+    margin-bottom:70px;
+}
+
+.courses-grid{
+    display:flex;
+    gap:40px;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.course-card{
+    width:420px;
+    background:#141414;
+    border:1px solid #2d2d2d;
+    border-radius:20px;
+    padding:40px;
+    transition:.35s;
+}
+
+.course-card:hover{
+    transform:translateY(-8px);
+    border-color:#d6b26b;
+    box-shadow:0 0 35px rgba(214,178,107,.25);
+}
+
+.course-card h3{
+    font-size:34px;
+    margin-bottom:15px;
+}
+
+.course-card p{
+    color:#bdbdbd;
+    margin-bottom:30px;
+}
+
+.course-card ul{
+    list-style:none;
+    margin-bottom:35px;
+}
+
+.course-card li{
+    margin-bottom:16px;
+    font-size:18px;
+}
