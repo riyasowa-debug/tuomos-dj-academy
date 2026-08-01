@@ -460,3 +460,16 @@ backdrop-filter: blur(18px);
         grid-template-columns:1fr;
     }
 }
+body::before{
+    content:"";
+    position:fixed;
+    inset:0;
+
+    background:
+    radial-gradient(circle,
+    rgba(255,255,255,.015),
+    transparent 70%);
+
+    pointer-events:none;
+    z-index:-1;
+}
