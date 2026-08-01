@@ -1047,8 +1047,46 @@ body{
     border-radius:12px;
 
 }
+.gallery{
 
-/* ---------- Hero ---------- */
+    padding:70px 20px 60px;
+
+}
+
+.gallery h2{
+
+    font-size:42px;
+
+    margin-bottom:35px;
+
+    text-align:center;
+
+}
+
+.gallery-grid{
+
+    display:grid;
+
+    grid-template-columns:1fr;
+
+    gap:16px;
+
+}
+
+.gallery-grid img{
+
+    width:100%;
+
+    aspect-ratio:4/5;
+
+    object-fit:cover;
+
+    border-radius:20px;
+
+    transition:.35s;
+
+}
+    /* ---------- Hero ---------- */
 
 .hero{
 
