@@ -495,3 +495,27 @@ section{
     position:relative;
     padding:120px 8%;
 }
+.course-card::before{
+
+content:"";
+
+position:absolute;
+
+top:0;
+
+left:0;
+
+width:100%;
+
+height:2px;
+
+background:linear-gradient(
+90deg,
+transparent,
+#d6b26b,
+transparent
+);
+
+opacity:.7;
+
+}
