@@ -594,8 +594,11 @@ padding:20px;
 cursor:pointer;
 
 transition:.3s;
-
-user-select:none;
+.course-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 20px 60px rgba(214,178,107,.18);
+}
+    user-select:none;
 
 }
 
