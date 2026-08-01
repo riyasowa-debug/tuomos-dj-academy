@@ -328,6 +328,19 @@ position:relative;
 padding-left:28px;
 
 }
+.course-card li::before{
+
+content:"✓";
+
+position:absolute;
+
+left:0;
+
+color:#d6b26b;
+
+font-weight:bold;
+
+}
 .course-card .button{
     display:inline-block;
     margin-top:20px;
