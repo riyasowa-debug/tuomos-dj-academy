@@ -440,7 +440,11 @@ font-weight:bold;
     padding: 120px 8%;
     background: #0d0d0d;
 }
+.gallery{
 
+    padding-top:40px;
+
+}
 .gallery h2 {
     text-align: center;
     font-size: 52px;
