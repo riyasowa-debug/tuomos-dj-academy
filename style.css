@@ -1481,7 +1481,17 @@ section h2{
     backdrop-filter:blur(12px);
 
 }
+.contact-card:hover{
 
+    transform:translateY(-8px);
+
+    border-color:#d6b26b;
+
+    box-shadow:
+
+    0 18px 45px rgba(214,178,107,.15);
+
+}
 .contact-card span{
 
     font-size:34px;
