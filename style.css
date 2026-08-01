@@ -289,8 +289,16 @@ background:rgba(255,255,255,.05);
 
 
 .course-card h3{
-    font-size:34px;
-    margin-bottom:15px;
+    
+
+font-size:32px;
+
+margin-bottom:20px;
+
+font-weight:700;
+
+color:white;
+
 }
 
 .course-card p{
