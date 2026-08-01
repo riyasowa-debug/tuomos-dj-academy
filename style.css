@@ -354,10 +354,13 @@ transform:translateY(-2px);
 }
 
 .lightbox img {
-    max-width: 90%;
-    max-height: 90%;
+   
+    width: auto;
+    height: auto;
+    max-width: 95vw;
+    max-height: 95vh;
+    object-fit: contain;
     border-radius: 12px;
-    box-shadow: 0 0 40px rgba(0,0,0,.6);
 }
 
 .close {
