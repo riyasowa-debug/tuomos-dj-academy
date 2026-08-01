@@ -1509,7 +1509,11 @@ section h2{
 
 }
 }
+.contact-card a:hover{
 
+    color:#d6b26b;
+
+}
 .contact-card a{
 
    .contact-card p,
