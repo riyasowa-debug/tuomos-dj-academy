@@ -800,3 +800,42 @@ opacity:.7;
 }
 
 }
+@media (max-width:768px){
+
+.contact{
+
+    padding:70px 20px;
+    text-align:center;
+
+}
+
+.contact h2{
+
+    font-size:42px;
+
+}
+
+.contact p{
+
+    font-size:20px;
+    line-height:1.8;
+
+}
+
+.social-links{
+
+    display:flex;
+    flex-direction:column;
+    gap:16px;
+    align-items:center;
+
+}
+
+.social-links a{
+
+    width:100%;
+    max-width:340px;
+
+}
+
+}
