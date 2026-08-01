@@ -1498,10 +1498,16 @@ section h2{
 
 }
 
-.contact-card h3{
 
-    margin:18px 0 12px;
+   .contact-card h3{
 
+    font-size:28px;
+
+    margin-bottom:14px;
+
+    font-weight:600;
+
+}
 }
 
 .contact-card a{
