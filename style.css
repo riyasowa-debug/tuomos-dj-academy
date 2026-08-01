@@ -421,7 +421,39 @@ font-weight:bold;
     .about-container{
         flex-direction:column;
     }
+.about-container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:26px;
+    padding:0 24px;
+}
 
+.about-image{
+    width:220px;
+}
+
+.about-image img{
+    width:100%;
+    border-radius:22px;
+}
+
+.about-text{
+    width:100%;
+    text-align:center;
+}
+
+.about-text h2{
+    font-size:42px;
+    line-height:1.15;
+    margin-bottom:24px;
+}
+
+.about-text p{
+    font-size:20px;
+    line-height:1.8;
+    max-width:100%;
+}
     .courses-grid{
         flex-direction:column;
         align-items:center;
