@@ -119,3 +119,42 @@ color:black;
 box-shadow:0 0 30px rgba(214,178,107,.45);
 transform:translateY(-2px);
 }
+
+
+
+
+
+
+/* ---------- Navigation ---------- */
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 70px;
+    background: rgba(0,0,0,.45);
+    backdrop-filter: blur(12px);
+    z-index: 1000;
+}
+
+.logo-nav{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo-nav img{
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+}
+
+.logo-nav span{
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
