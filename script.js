@@ -97,6 +97,8 @@ if (menuToggle && navLinks) {
         menuToggle.classList.toggle("active");
         navLinks.classList.toggle("active");
 
+        document.body.classList.toggle("menu-open");
+
     });
 
     document.querySelectorAll(".nav-links a").forEach(link => {
@@ -106,7 +108,26 @@ if (menuToggle && navLinks) {
             menuToggle.classList.remove("active");
             navLinks.classList.remove("active");
 
+            document.body.classList.remove("menu-open");
+
         });
+
+    });
+
+    document.addEventListener("click", (e) => {
+
+        if (
+            navLinks.classList.contains("active") &&
+            !navLinks.contains(e.target) &&
+            !menuToggle.contains(e.target)
+        ) {
+
+            menuToggle.classList.remove("active");
+            navLinks.classList.remove("active");
+
+            document.body.classList.remove("menu-open");
+
+        }
 
     });
 
